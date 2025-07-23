@@ -2,6 +2,14 @@
 
 Script di configurazione automatica per Kali Linux in una nuova VM.
 
+## ⚡ Esecuzione rapida (senza git)
+
+Puoi eseguire tutto con **una sola riga** direttamente nel terminale:
+
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/loc4t3llix/kali-setup/main/setup-kali.sh)
+```
+
 ## ✨ Cosa fa questo script
 
 ✔ Aggiorna il sistema (`apt update && upgrade`)  
@@ -9,20 +17,9 @@ Script di configurazione automatica per Kali Linux in una nuova VM.
 ✔ Configura il terminale con tema figo (`agnoster`), Neofetch e plugin  
 ✔ Imposta `zsh` come shell predefinita  
 ✔ Installa e configura **ZeroTier**  
-✔ Chiede il tuo **Network ID** e si connette automaticamente  
+✔ Ti chiede il tuo **Network ID** e si connette automaticamente  
 ✔ Mostra stato completo della rete ZeroTier  
 ✔ Rimuove pacchetti inutili
-
-## 🖥️ Come usarlo
-
-1. Scarica e scompatta lo script:
-   ```bash
-   curl -LO https://your-download-link/kali-autosetup.zip
-   unzip kali-autosetup.zip
-   cd kali-autosetup
-   chmod +x setup-kali.sh
-   ./setup-kali.sh
-   ```
 
 ## 🧑‍💻 Autore
 
